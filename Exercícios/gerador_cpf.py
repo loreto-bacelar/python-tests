@@ -30,7 +30,7 @@ segundo_digito = 0 if digito > 9 else digito
 
 nove_digitos_formatado = cpf[:3] + '.' + cpf[3:6] + '.' + cpf[6:]
 
-cpf_gerado = nove_digitos_formatado + "-" + str(primeiro_digito) + str(segundo_digito)
+cpf_gerado = nove_digitos_formatado + "-" + str(primeiro_digito + segundo_digito)
 
 print(cpf_gerado)
 
